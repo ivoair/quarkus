@@ -1,0 +1,6 @@
+quarkus:
+  http:
+    port: 8081
+    root-path: /quarkus
+  log:
+    level: INFO    

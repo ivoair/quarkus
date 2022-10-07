@@ -1,0 +1,25 @@
+quarkus:
+  http:
+    port: 8080
+  log:
+    console:
+      format: "%d{HH:mm:ss} %-5p traceId=%X{traceId}, parentId=%X{parentId}, spanId=%X{spanId}, sampled=%X{sampled} [%c{2.}] (%t) %s%e%n"   
+  datasource:
+    db-kind: h2
+    username: sa
+    password: sa
+    jdbc:
+      driver: org.h2.Driver
+      url: jdbc:h2:mem:flightdb
+  hibernate-orm:
+    database:
+      generation: drop-and-create  
+  rest-client:
+    "org.acme.rest.client.CountriesService":
+      url: http://spring-cloud-config-server:8888  
+      scope: javax.inject.Singleton
+
+greeting:
+  message: "hello"
+
+  
