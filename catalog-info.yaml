@@ -4,5 +4,5 @@ metadata:
   name: quarkus
 spec:
   lifecycle: production
-  type: quarkus-archetype
+  type: archetype
   owner: ivoair
