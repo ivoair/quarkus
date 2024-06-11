@@ -1,0 +1,8 @@
+apiVersion: ivoair/v1
+kind: Component
+metadata:
+  name: quarkus
+spec:
+  lifecycle: production
+  type: quarkus-archetype
+  owner: ivoair
