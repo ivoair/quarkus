@@ -3,7 +3,7 @@ kind: Component
 metadata:
   name: quarkus
   annotations:
-    backstage.io/techdocs-ref: value  
+    backstage.io/techdocs-ref: dir:.  
 spec:
   lifecycle: production
   type: archetype
