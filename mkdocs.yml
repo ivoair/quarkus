@@ -1,8 +1,7 @@
-site_name: ${{values.component_id}}
-site_description: ${{values.description}}
+site_name: 'example-docs'
 
 nav:
-  - Home: README.md
+  - Home: index.md
 
 plugins:
   - techdocs-core
