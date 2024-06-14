@@ -851,3 +851,4 @@ jboss/server/minimal/work/**/*
 *.DEPLOYED
 /.metadata/
 *.factorypath
+/site

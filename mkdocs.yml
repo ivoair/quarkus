@@ -1,5 +1,10 @@
 site_name: 'example-docs'
+theme:
+  name: 'mkdocs'
 
 nav:
-  - Home: index.md
+  - Home: README.md
+
+docs_dir: 'docs'
+site_dir: 'site'
 
