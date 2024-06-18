@@ -2,6 +2,10 @@ apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
   name: quarkus
+  description: Quarkus Archetype for educational purposes
+  tags:
+    - quarkus
+    - archetype
   links:
     - url: https://github.com/ivoair/quarkus
       title: Quarkus Archetype
@@ -12,3 +16,4 @@ spec:
   lifecycle: production
   type: archetype
   owner: ivoair
+  system: public-websites
