@@ -2,6 +2,10 @@ apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
   name: quarkus
+  links:
+    - url: https://github.com/ivoair/quarkus
+      title: Quarkus Archetype
+      icon: dashboard
   annotations:
     backstage.io/techdocs-ref: dir:.  
 spec:
