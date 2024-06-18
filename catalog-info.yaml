@@ -15,5 +15,5 @@ metadata:
 spec:
   lifecycle: production
   type: archetype
-  owner: Ivan Carro
+  owner: ivoair
   system: public-websites
