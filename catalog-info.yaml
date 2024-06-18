@@ -5,7 +5,7 @@ metadata:
   links:
     - url: https://github.com/ivoair/quarkus
       title: Quarkus Archetype
-      icon: dashboard
+      icon: github
   annotations:
     backstage.io/techdocs-ref: dir:.  
 spec:
